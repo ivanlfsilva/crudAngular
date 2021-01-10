@@ -1,23 +1,16 @@
 {
-  "name": "crudAngular",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ivanlfsilva/crudAngular.git"
+    "start": "json-server --watch db.json --port 3001"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ivanlfsilva/crudAngular/issues"
-  },
-  "homepage": "https://github.com/ivanlfsilva/crudAngular#readme",
   "dependencies": {
+    "@angular/cli": "^11.0.6",
     "json-server": "^0.16.3"
   }
 }

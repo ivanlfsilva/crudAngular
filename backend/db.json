@@ -1,22 +1,13 @@
 {
-    "products": [
+    "produtos": [
         {
-        "id": 1,
-        "name": "geladeira",
-        "price": 1900
-        },{
+            "id": 1,
+            "nome": "mac OS",
+            "preço": 21000
+        }, {
             "id": 2,
-            "name": "macOs",
-            "price": 21000
-        },{
-            "id": 3,
-            "name": "samsung s25",
-            "price": 3000
-            }
-
-
-
-
-
+            "nome": "lenovo idea pad",
+            "preço": 2750
+        }
     ]
 }
