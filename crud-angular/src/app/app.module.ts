@@ -13,7 +13,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
-
+import { ProdutosCrudComponent } from './views/produtos-crud/produtos-crud.component';
+import { CriacaoDeProdutosComponent } from './components/produtos/criacao-de-produtos/criacao-de-produtos.component';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { HomeComponent } from './views/home/home.component';
     RodapeComponent,
     NavegacaoComponent,
     HomeComponent,
+    ProdutosCrudComponent,
+    CriacaoDeProdutosComponent,
 
   ],
   imports: [
@@ -32,9 +36,11 @@ import { HomeComponent } from './views/home/home.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
