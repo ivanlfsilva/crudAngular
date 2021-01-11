@@ -7,6 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RodapeComponent } from './components/template/rodape/rodape.component';
+import { NavegacaoComponent } from './components/template/navegacao/navegacao.component';
+
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+import { HomeComponent } from './views/home/home.component';
 
 
 
@@ -15,13 +21,18 @@ import { RodapeComponent } from './components/template/rodape/rodape.component';
     AppComponent,
     HeaderComponent,
     RodapeComponent,
+    NavegacaoComponent,
+    HomeComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
