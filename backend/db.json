@@ -1,18 +1,18 @@
 {
   "produtos": [
     {
-      "id": 1,
-      "nome": "mac OS",
-      "preço": 21000
-    },
-    {
-      "id": 2,
-      "nome": "lenovo idea pad",
-      "preço": 2750
-    },
-    {
       "name": "celular s20 +",
-      "price": "900,00",
+      "price": "5956.00",
+      "id": 1
+    },
+    {
+      "name": "televisão 4k 55 ",
+      "price": "3559.99",
+      "id": 2
+    },
+    {
+      "name": "tablet a samsung",
+      "price": "679.99",
       "id": 3
     }
   ]

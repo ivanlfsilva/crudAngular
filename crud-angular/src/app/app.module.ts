@@ -21,7 +21,12 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule }  from '@angular/common/http'
 import { FormsModule } from '@angular/forms'
 import { MatFormFieldModule } from '@angular/material/form-field'
-import { MatInputModule } from '@angular/material/input'
+import { MatInputModule } from '@angular/material/input';
+import { ProdutosDeLeituraComponent } from './components/produtos/produtos-de-leitura/produtos-de-leitura.component';
+import { ProdutosDeLeitura2Component } from './components/produtos/produtos-de-leitura2/produtos-de-leitura2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort'
 
 
 @NgModule({
@@ -33,6 +38,8 @@ import { MatInputModule } from '@angular/material/input'
     HomeComponent,
     ProdutosCrudComponent,
     CriacaoDeProdutosComponent,
+    ProdutosDeLeituraComponent,
+    ProdutosDeLeitura2Component,
 
   ],
   imports: [
@@ -48,7 +55,10 @@ import { MatInputModule } from '@angular/material/input'
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

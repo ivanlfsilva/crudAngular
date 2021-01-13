@@ -29,4 +29,7 @@ export class ProdutoService {
     return this.http.post<produto>(this.baseUrl, produto)
 
   }
+  lendo(): Observable<produto[]>{
+    return this.http.get<produto[]>(this.baseUrl)
+  }
 }

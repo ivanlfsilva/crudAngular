@@ -3,6 +3,7 @@ import { ProdutoService } from './../../produto/produto.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
 
+
 @Component({
   selector: 'app-criacao-de-produtos',
   templateUrl: './criacao-de-produtos.component.html',
