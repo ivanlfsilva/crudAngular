@@ -14,6 +14,11 @@
       "name": "tablet a samsung",
       "price": "679.99",
       "id": 3
+    },
+    {
+      "name": "tablet a samsung",
+      "price": "900,00",
+      "id": 4
     }
   ]
 }
