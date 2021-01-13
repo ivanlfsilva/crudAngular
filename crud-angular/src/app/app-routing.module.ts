@@ -1,3 +1,4 @@
+import { produto } from './components/produtos/modelo-do-produto';
 import { CriacaoDeProdutosComponent } from './components/produtos/criacao-de-produtos/criacao-de-produtos.component';
 import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';

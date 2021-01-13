@@ -1,8 +1,8 @@
-export interface produtots {
+export interface produto {
 
     id?: number,
-    nome: string,
-    preço: number
+    name: string,
+    price: number
 
 
 }

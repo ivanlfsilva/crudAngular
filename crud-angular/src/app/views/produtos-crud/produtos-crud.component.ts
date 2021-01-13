@@ -1,3 +1,5 @@
+import { CriacaoDeProdutosComponent } from './../../components/produtos/criacao-de-produtos/criacao-de-produtos.component';
+import { produto } from './../../components/produtos/modelo-do-produto';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
 
@@ -13,9 +15,9 @@ export class ProdutosCrudComponent implements OnInit {
   ngOnInit(): void {}
 
 
-    navegacaoCriandoComponente(): void {
+  navegacaoCriandoComponente(): void {
       this.router.navigate(['/produtos/criacao-de-produtos'])
-    } 
+  } 
 
 
     

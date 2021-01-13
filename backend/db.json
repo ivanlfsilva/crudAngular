@@ -1,13 +1,19 @@
 {
-    "produtos": [
-        {
-            "id": 1,
-            "nome": "mac OS",
-            "preço": 21000
-        }, {
-            "id": 2,
-            "nome": "lenovo idea pad",
-            "preço": 2750
-        }
-    ]
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "mac OS",
+      "preço": 21000
+    },
+    {
+      "id": 2,
+      "nome": "lenovo idea pad",
+      "preço": 2750
+    },
+    {
+      "name": "celular s20 +",
+      "price": "900,00",
+      "id": 3
+    }
+  ]
 }
