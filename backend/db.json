@@ -1,3 +1,24 @@
 {
-  "produtos": []
+  "produtos": [
+    {
+      "name": "tv aoc",
+      "price": "1450,00",
+      "id": 1
+    },
+    {
+      "name": "processador amd a4000 a-series",
+      "price": "259.99",
+      "id": 2
+    },
+    {
+      "name": "televisão 4k 55 polegadas",
+      "price": "5900.00",
+      "id": 3
+    },
+    {
+      "name": "celular s20 ++",
+      "price": "1450,00",
+      "id": 4
+    }
+  ]
 }
