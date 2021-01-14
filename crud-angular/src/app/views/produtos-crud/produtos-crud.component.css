@@ -1,3 +1,6 @@
+.container {
+    display: inline;
+}
 button {
     margin-bottom: 30px;
 }

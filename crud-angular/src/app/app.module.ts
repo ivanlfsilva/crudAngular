@@ -25,7 +25,10 @@ import { MatInputModule } from '@angular/material/input';
 import { ProdutosDeLeituraComponent } from './components/produtos/produtos-de-leitura/produtos-de-leitura.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort'
+import { MatSortModule } from '@angular/material/sort';
+import { ProdutoUpdateComponent } from './components/produtos/produto-update/produto-update.component';
+import { ProdutosDeletarComponent } from './components/produtos/produtos-deletar/produtos-deletar.component';
+
 
 
 @NgModule({
@@ -38,7 +41,9 @@ import { MatSortModule } from '@angular/material/sort'
     ProdutosCrudComponent,
     CriacaoDeProdutosComponent,
     ProdutosDeLeituraComponent,
-    
+    ProdutoUpdateComponent,
+    ProdutosDeletarComponent,
+      
 
   ],
   imports: [

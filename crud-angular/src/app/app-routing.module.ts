@@ -5,7 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component'
 import { ProdutosCrudComponent } from './views/produtos-crud/produtos-crud.component'
-
+import { ProdutoUpdateComponent } from './components/produtos/produto-update/produto-update.component';
+import { ProdutosDeletarComponent } from './components/produtos/produtos-deletar/produtos-deletar.component';
 const routes: Routes = [
   {
   path: "",
@@ -16,6 +17,12 @@ const routes: Routes = [
   },{
     path: "produtos/criacao-de-produtos",
     component: CriacaoDeProdutosComponent,
+  },{
+    path: "produtos/produto-update/:id",
+    component: ProdutoUpdateComponent,
+  },{
+    path: "produtos/produto-deletar/:id",
+    component: ProdutosDeletarComponent,
   }
 ];
 
